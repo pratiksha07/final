@@ -1,0 +1,63 @@
+Assignment 5
+
+
+Q1. What are routes? 
+	Sinatra routes are simply Ruby methods with an
+	associated code block that get called every time a request matches
+	the given route pattern.The :id part of the route pattern
+	is a named parameter and will be accessible in your code
+	from the params hash: params[:id], but I'll describe these in
+	further detail later in this post.Routes are matched in the exact
+	order that they are defined in your code, this means that second
+	route in the below example will never get matched because we have the
+	exact same pattern further up in the code.The explicit routes should
+	always be added towards the top of your route file or controller. I
+	can guarantee you that this has been the source a many hours of
+	frustration by developers working with Sinatra.Route method names
+	correspond to HTTP 1.1 request method names to make things
+	easier to remember.
+
+
+Q2. How to add a new gem to your project?
+	Add whatever gem you want to use in Gemfile.
+	Execute bundle install
+
+
+Q3. Sinatra application to calcule nth fibonaci
+number.
+
+	require 'sinatra'
+
+	get '/' do
+		name = params[:name]
+		if name!=nil
+			return "Hello #{name}!"
+		else 
+			return "No parameter!"
+		end
+	end
+
+	get '/Fibo' do
+		n = params[:n]
+		if n!=nil
+			i = n.to_i
+			num = Fib(i)
+			return "Value = #{num}"
+		else
+			return "No parameters given!"
+		end
+		
+	end
+	def Fib(n)
+		i=2
+		a=0
+		b=1
+		while i<n
+			c = a + b
+			a = b
+			b = c
+			i = i + 1
+		end
+		return c 
+	end
+

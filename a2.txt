@@ -1,0 +1,60 @@
+Assignment 2
+
+Install ruby using rvm
+Q1. What rvm is used for?
+	
+Ruby on Rails is one of the most popular application stacks for developers wishing to create sites and web apps. The Ruby programming language, coupled with the Rails development framework, makes app development simple.Since Ruby on
+	Rails doesn't come in a neatly packaged format, getting the framework installed used to be one of the more difficult parts of getting started. Luckily, tools like rvm, the Ruby Version Manager, have made installation simple.
+	Ruby Version Manager, often abbreviated as RVM,is a unix-like software platform designed to manage multiple installations of Ruby on the same device. The entire ruby environment including the Ruby interpreter, installed RubyGems, and documentation is partitioned.RVM provides features for organization of Ruby gems through "gemsets", collections of gems separated by a namespace and associated Ruby installation. 
+
+
+Q2. What is "#!"?
+	In computing, a shebang is the
+	character sequence consisting of the characters number
+	sign and exclamation mark (#!) at the beginning of
+	a script. It is also
+	called sha-bang hashbang,pound-bang, or hash-pling.The
+	shebang line is usually ignored by the interpreter because the "#"
+	character is a comment marker in many scripting languages;
+	some language interpreters that do not use the hash mark to begin
+	comments (such as Scheme) still may ignore the shebang line in
+	recognition of its purpose.[8] Other solutions rely on a
+	preprocessor that evaluates and removes the shebang line and sends
+	the remainder of the script to a compiler or interpreter.
+
+Q3. Ruby program to find nth number in
+fibonaccci series.
+	def Fib(n)
+		i=2
+		a=0
+		b=1
+		p a
+		p b
+		while i<n
+			c = a + b
+			a = b
+			b = c
+			p c
+			i = i + 1
+		end
+	end
+
+	n = (ARGV[0] || 4).to_i
+	Fib(n)
+
+
+Q4. Ruby program to solve Josephus Problem
+	def Jos(n,k)
+		a = (1..n).to_a
+		p a
+		while a.length != 1
+			a.rotate!(k-1).shift
+			p a
+		end
+		p 'Winner is: '
+		p a[0]
+	end
+
+	n = (ARGV[0] || 5).to_i
+	k = (ARGV[1] || 2).to_i
+	Jos(n,k)

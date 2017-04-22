@@ -1,0 +1,49 @@
+Assignment 4
+
+
+
+Q1. What is a bundler?
+	Bundler provides a consistent environment for
+	Ruby projects by tracking and installing the exact gems and versions
+	that are needed.
+	Bundler is an exit from dependency hell, and
+	ensures that the gems you need are present in development, staging,
+	and production. Starting work on a project is as simple as bundle
+	install.
+	$ gem install bundler â€“ installs bundler
+
+
+Q2. What does the bundle install command do?
+	Installs the dependencies specified in the
+	Gemfile.Install the gems specified in your Gemfile(5). If this
+	is the first time you run bundle install (and a Gemfile.lock does
+	not exist), bundler will fetch all remote sources, resolve
+	dependencies and install all needed gems.
+	If a gemfile.lock does exist, and you
+	have not updated your Gemfile(5), bundler will fetch all remote
+	sources, but use the dependencies specified in
+	the Gemfile.lock instead of resolving dependencies.
+	If a Gemfile.lock does exist, and you
+	have updated your Gemfile(5), bundler will use the dependencies
+	in theGemfile.lock for all gems that you did not update, but
+	will re-resolve the dependencies of gems that you did update. 
+
+
+Q3. What is a gemfile?
+	A Gemfile is a file we create which is
+	used for describing gem dependencies for Ruby programs. A gem is a
+	collection of Ruby code that we can extract into a â€œcollectionâ€
+	which we can call later.A  Gemfile is a file we create which is
+	used for describing gem dependencies for Ruby programs. A gem is a
+	collection of Ruby code that we can extract into a â€œcollectionâ€
+	which we can call later.
+	Your Gemfile should always be in the root of
+	your project directory, this is where Bundler expects it to be and it
+	is the standard place for any package manager style files to live.
+	It is useful to note that your Gemfile is
+	evaluated as Ruby code. When it is evaluated by Bundler the
+	context it is in allows us access to certain methods that we will use
+	to explain our gem requirements.Ruby developers use Gemfiles all the
+	time, and most of us know how to do the basics. In this post I want
+	to dive deep into everything we can do with a Gemfile.
+

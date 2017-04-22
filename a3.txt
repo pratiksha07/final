@@ -1,0 +1,70 @@
+Assignment 3
+
+
+Q1. What is git?
+	Git is a version control system (VCS)
+	for tracking changes in computer files and coordinating
+	work on those files among multiple people. It is primarily used
+	for software development, but it can be used to keep track
+	of changes in any files. As a distributed revision
+	control system it is aimed at speed,[10] data
+	integrity, and support for distributed, non-linear workflows.
+	Git was created by Linus Torvalds in
+	2005 for development of the Linux kernel, with other kernel
+	developers contributing to its initial development. Its current
+	maintainer since 2005 is Junio Hamano.
+	As with most other distributed version control
+	systems, and unlike most clientâ€“server systems, every
+	Git directory on every computer is a
+	full-fledged repository with complete history and full
+	version tracking abilities, independent of network access or a
+	central server.
+
+
+Q2. What is Github?
+	GitHub is a web-based Git or version
+	control repository and Internet hosting service. It offers
+	all of the distributed version control and source code
+	management (SCM) functionality of Git as well as adding its own
+	features. It provides access controland several collaboration
+	features such as bug tracking, feature requests, task
+	management, and wikis for every project.
+	GitHub offers both plans for private and
+	free repositories on the same account which are
+	commonly used to host open-source software projects. As
+	of April 2017, GitHub reports having almost 20 million users and 57
+	million repositories,making it the largest host of source
+	code in the world.
+	GitHub has a mascot called Octocat, a
+	cat with five tentacles and a human-like face.
+	Development of the GitHub platform began on 1
+	October 2007. The site was launched in April 2008 by Tom
+	Preston-Werner, Chris Wanstrath, and PJ Hyett after it had been
+	made available for a few months prior as a beta release.
+	Projects on GitHub can be accessed and
+	manipulated using the standard Git command-line interface and all of
+	the standard Git commands work with it. GitHub also allows registered
+	and non-registered users to browse public repositories on the site.
+	Multiple desktop clients and Git plugins have also been
+	created by GitHub and other third parties that integrate with the
+	platform.
+	The site provides social networking-like
+	functions such as feeds, followers, wikis (using wiki
+	software called Gollum) and a social network graph to
+	display how developers work on their versions ("forks") of
+	a repository and what fork (and branch within that fork) is newest.
+	A user must create an account in order to
+	contribute content to the site, but public repositories can be
+	browsed and downloaded by anyone. With a registered user account,
+	users are able to discuss, manage, create repositories, submit
+	contributions to others' repositories, and review changes to
+	code.
+	The software that runs GitHub was written
+	using Ruby on Rails and Erlang by GitHub, Inc.
+	developers Chris Wanstrath, PJ Hyett, and Tom
+	Preston-Werner
+
+
+Q3. Create an account on Github
+	
+	Username : pratiksha07

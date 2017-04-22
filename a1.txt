@@ -1,0 +1,83 @@
+Name : Pratiksha Jadhav
+Roll no : 50
+Grno : 141783
+Subject : Web Development Application
+All Assignments
+Date : 22/APR/2017
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Assignment 1
+
+Q1. Describe the following Linux commands : 
+
+	a) pwd : Displays the present working directory.
+
+	b) top : Used to show all the running processes
+	in Linux Environment.
+
+	c) man : Man is the interface used to show all
+	the system's manual.
+
+	d) cat : cat command allows us to create
+	single or multiple files, view contain of file, concatenate files and
+	redirect output in terminal or files.
+
+	e) chmod : chmod changes the permissions of each
+	given file according to mode, where mode describes the permissions to
+	modify. Mode can be specified with octal numbers or with letters.
+
+
+Q2. Difference between chmod a+x, chmode 755,
+	chmod +x
+	chmod a+x modifies the argument's mode
+	while chmod 755 sets it.
+
+
+Q3. Describe REPL
+	
+REPL stands for Read Eval Print Loop and it
+	represents a computer environment like a Windows console or
+	Unix/Linux shell where a command is entered and the system responds
+	with an output in an interactive mode. Node.js or Node comes
+	bundled with a REPL environment. It performs the following tasks âˆ’
+	Read âˆ’ Reads user's input, parses the
+	input into JavaScript data-structure, and stores in memory.
+	Eval âˆ’ Takes and evaluates the data
+	structure.
+	Print âˆ’ Prints the result.
+	Loop âˆ’ Loops the above command until the
+	user presses ctrl-c twice.
+	The REPL feature of Node is very useful in
+	experimenting with Node.js codes and to debug JavaScript codes.
+
+
+Q4. Iterators in ruby.
+	
+	a) Ruby each Iterator:
+	The each iterator returns all the elements of an
+	array or a hash.
+
+	b) Ruby collect Iterator:
+	The collect iterator returns all the
+	elements of a collection.
+
+Q5. Write a ruby program for operator
+overloading :
+
+	class Tester1
+	 def initialize x
+	   @x = x
+	 end
+	 def +(y)
+	   @x.to_s + y.to_s
+	 end
+	end
+	a = Tester1.new 11.to_s
+	puts(a+22)
+
+
+	pratiksha@pratiksha-DELL-PC:~/WAD$ 
+	ruby test.rb
+	1122
+	pratiksha@pratiksha-DELL-PC:~/WAD$

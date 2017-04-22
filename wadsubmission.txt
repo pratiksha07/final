@@ -147,7 +147,7 @@ Q4. Ruby program to solve Josephus Problem
 	Jos(n,k)
 
 Assignment 3
-The github saga
+
 
 Q1. What is git?
 	Git is a version control system (VCS)
@@ -214,11 +214,10 @@ Q2. What is Github?
 
 
 Q3. Create an account on Github
+	Username : pratiksha07
 	
-	Was done.
-
 Assignment 4
-Sinatra Saga
+
 
 
 Q1. What is a bundler?
@@ -268,7 +267,7 @@ Q3. What is a gemfile?
 
 
 Assignment 5
-Sinatra : routes
+
 
 Q1. What are routes? 
 	Sinatra routes are simply Ruby methods with an
